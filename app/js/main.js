@@ -1545,7 +1545,7 @@ function activateLayerAbout(layer) {
                     '• <a href="https://www.tucson.ars.ag.gov/unit/publications/PDFfiles/2202.pdf" target="_blank" style="color:#26871A">Effect of check dams on runoff, sediment yield and retention on small semi-arid watersheds.</a><br/>' + 
                     '• <a href="https://www.tucson.ars.ag.gov/unit/publications/PDFfiles/2316.pdf" target="_blank" style="color:#26871A">Semiarid watershed response to low-tech porous rock check dams.</a><br/>' + 
                     '• <a href="https://www.tucson.ars.ag.gov/unit/publications/PDFfiles/2513.pdf" target="_blank" style="color:#26871A">The impacts of porous rock check dams on a semiarid alluvial fan.</a>';
-	$("#myList").append('<div style="width:100%;">' + aboutString + '</div>');
+	$("#myList").append('<div style="width:90%; margin: 10px 10px 0px 20px;">' + aboutString + '</div>');
 }
 
 function activateLayer(layer) {
